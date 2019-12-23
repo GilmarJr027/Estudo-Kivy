@@ -1,0 +1,21 @@
+<MinhaTela@BoxLayout>:
+    orientation: "vertical"
+    
+    #acessando uma função do escopo do app
+    Button: 
+        text: "self"
+        #liga pelo evento on_press a função definida na linguagem Python
+        on_press: self.funcSelf()
+    
+    #acessando uma função na classe de inicialização de nossa tela
+    Button: 
+        text: "root"
+        #liga pelo evento on_press a função definida na linguagem Python
+        on_press: root.funcRoot()
+
+    #acessando a classe principal da nossa aplicação
+    Button: 
+        text: "app"
+        #liga pelo evento on_press a função definida na linguagem Python
+        on_press: app.funcApp()
+MinhaTela:
