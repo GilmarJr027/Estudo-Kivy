@@ -1,0 +1,12 @@
+#getters e setters 
+
+#Metodos getters: Sempre retorna um valor
+
+#Get Significa o retorno de dados 
+
+#Metodos setters sempre recebem valores passados por parametros
+
+#Set Significa atribuição de valores a um determonado membro 
+
+#Metodos acessores garantem a integridade das informações internas do objeto
+

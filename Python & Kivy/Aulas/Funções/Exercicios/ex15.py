@@ -1,0 +1,10 @@
+def ini():
+    num = int(input('Informe um número:'))
+    
+    seq = [0,1,2,3,4,5,6,7,8,9,10]
+
+    if num in seq:
+        print('Esta Contido!')
+    else:
+        print('NÂO esta Contido')
+ini()

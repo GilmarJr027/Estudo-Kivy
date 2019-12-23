@@ -1,0 +1,11 @@
+#Método de Classe bulltins
+#class A:
+#    def func(cls):
+#        pass
+#    classmethod(func)
+
+#Metodo de Class Decorator
+#class A:
+#    @classmethod
+#    def func(cls):
+#        pass

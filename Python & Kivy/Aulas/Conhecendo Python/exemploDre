@@ -1,0 +1,72 @@
+#declaracao de venda bruta
+#receitas
+venda_bruta = 150000.000
+recebimento = 35000
+retorno_investimento = 1200
+receitas = (venda_bruta + recebimento + retorno_investimento)
+
+
+#declaracao de custos de venda
+#cmv
+custo_venda = 95000
+fretes = 1200
+cmv = (custo_venda + fretes)
+
+
+#declaracao de despesas fixas
+#(despesas do predio)
+agua = 650
+energia = 2350
+iptu = 350
+seguro_imovel = 250
+internet = 100
+seguranca = 480.00
+#soma despeasas do predio
+despesas_predio = (agua + energia + iptu + seguro_imovel + internet + seguranca)
+
+#(despesas com folha de pagamento e retiradas)
+folha_pagamento = 28000
+prolabore = 5000
+#soma despesas com folha de pagamento e retiradas
+despesas_com_pagamentos = (folha_pagamento + prolabore)
+
+
+#despesas variaveis
+#(impostos)
+simples_nacional = 850
+gare = 150
+icms = 18000
+icms_st = 120
+pis = 80
+cofins = 120
+iva = 450
+#soma impostos
+despesas_impostos = (simples_nacional + gare + icms + icms_st + pis + cofins + iva)
+#(despesas administrativas)
+reparo_manutencao = 1000
+multas = 150
+investimentos_financeiros = 1000
+#soma despesas administrativas
+despesas_administrativas = (reparo_manutencao + multas + investimentos_financeiros)
+
+mes = (['Janeiro'], [receitas], [cmv], [despesas_predio], [despesas_com_pagamentos], [despesas_impostos], [despesas_administrativas])
+
+receita_total = receitas
+
+custo_total = (despesas_predio + despesas_com_pagamentos + despesas_impostos + despesas_administrativas)
+
+lucro_total = (receitas - custo_total)
+
+print('Receitas R$:{}'.format(receita_total))
+print('Despesas R$:{}'.format(custo_total))
+print('Lucro Janeiro R$:{}'.format(lucro_total))
+
+
+
+
+
+
+
+
+
+
